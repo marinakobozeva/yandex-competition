@@ -1,0 +1,12 @@
+.page__container {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  max-width: 1377px;
+  min-width: 320px;
+  margin: 0 auto;
+  color: #000;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: auto;
+}
