@@ -21,3 +21,11 @@
   font-style: normal;
   font-weight: 900;
 }
+
+@font-face {
+  src: url(../fonts/IstokWeb-Bold.woff) format('woff'),
+  url(../fonts/IstokWeb-Bold.woff2) format('woff2');
+  font-family: 'IstokWeb';
+  font-style: normal;
+  font-weight: 700;
+}
