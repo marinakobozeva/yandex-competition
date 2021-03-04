@@ -1,0 +1,19 @@
+.mountain{
+    display: grid;
+    grid-template-columns: 1fr 687px;
+}
+@media screen and (max-width: 1279px) {
+    .mountain{
+        grid-template-columns:1fr 524px;
+     }
+    }
+@media screen and (max-width:1023px){
+    .mountain{
+        grid-template-columns:1fr;
+         }
+    }
+@media screen and (max-width: 424px) {
+    .mountain{
+        grid-template-rows:1fr;
+         }
+    } 

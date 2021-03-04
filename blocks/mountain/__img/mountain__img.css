@@ -1,0 +1,15 @@
+.mountain__img {
+    max-height: 576px;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:1023px){
+.mountain__img{
+    order: 1;
+         }
+    }
+@media screen and (max-width: 767px) {
+.forest__img{
+    order: 2;
+    }
+}

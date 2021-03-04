@@ -12,9 +12,16 @@
         gap: 10px;
     }
 }
+@media screen and (max-width:1023px){
+    .where{
+        padding: 0 24px 0 24px;
+        gap: 0;
+    }
+}
 @media screen and (max-width:767px){
     .where {
         grid-template-columns:1fr;
-        padding: 0 16px 0 16px;
+        margin:0;
+        padding: 0;
     }
 }

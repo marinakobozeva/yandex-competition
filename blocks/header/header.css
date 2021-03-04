@@ -7,7 +7,7 @@
 }
 @media screen and (max-width:1279px){
     .header{
-        max-width: calc(100% - 30px*2);
+        padding: 70px 30px 0 30px;
         }
     }
 @media screen and (max-width:1023px){
@@ -17,12 +17,11 @@
     }
 @media screen and (max-width:767px){
     .header{
-        max-width: calc(100% - 24px*2);
+        padding: 0 20px 0 20px;
         flex-direction: column;
         margin-top:20px;
-        padding: 0;
         align-items: center;
-            }   
+        }   
     }
 @media screen and (max-width: 424px) {
     .header{
