@@ -1,0 +1,5 @@
+.sea__img {
+    max-height: 576px;
+    width: 100%;
+    object-fit: cover;
+}
