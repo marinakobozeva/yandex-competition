@@ -1,0 +1,4 @@
+.people {
+  width: calc(100% - 2 * 74px);
+  margin: 0 74px;
+}

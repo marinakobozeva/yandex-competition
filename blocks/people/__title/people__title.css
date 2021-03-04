@@ -1,0 +1,9 @@
+.people__title {
+  text-transform: uppercase;
+  color: #FECEA8;
+  font-family: 'IBMPlexMono';
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}

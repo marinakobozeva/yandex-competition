@@ -1,0 +1,9 @@
+.people__item-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBMPlexMono';
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 126%;
+}
