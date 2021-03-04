@@ -1,0 +1,12 @@
+.where__block{
+    /* margin: 0 196px 0 0; */
+    max-width: 550px;
+    width: 100%;
+    align-self: center;
+    }
+@media screen and (max-width: 424px) {
+    .where__block{
+        max-width: calc(100% - 16px*2); 
+            /* padding: 16px; */
+        }
+    }

@@ -5,3 +5,9 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__box/header__box.css);
+@import url(../blocks/where/where.css);
+@import url(../blocks/where/__block/where__block.css);
+@import url(../blocks/where/__img/where__img.css);
+@import url(../blocks/where/__title/where__title.css);
+@import url(../blocks/where/__subtitle/where__subtitle.css);
+@import url(../blocks/page/page.css);
