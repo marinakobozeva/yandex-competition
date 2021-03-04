@@ -1,0 +1,14 @@
+.schedule__reason {
+  min-height: 110px;
+  border: none;
+  padding: 12px 18px;
+
+}
+
+.schedule__reason::placeholder {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 4%;
+}

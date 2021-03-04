@@ -1,4 +1,6 @@
 .schedule__text {
   width: calc(100% - 74px - 232px);
   margin: 152px 232px 132px 74px;
+  display: flex;
+  flex-direction: column;
 }
