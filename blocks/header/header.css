@@ -1,0 +1,35 @@
+.header {
+    max-width: 1231px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 0 0;
+}
+@media screen and (max-width:1279px){
+    .header{
+        max-width: calc(100% - 30px*2);
+        }
+    }
+@media screen and (max-width:1023px){
+    .header{
+        max-width: calc(100% - 24px*2);
+        }
+    }
+@media screen and (max-width:767px){
+    .header{
+        max-width: calc(100% - 24px*2);
+        flex-direction: column;
+        margin-top:20px;
+        padding: 0;
+        align-items: center;
+            }   
+    }
+@media screen and (max-width: 424px) {
+    .header{
+        max-width: calc(100% - 16px*2);
+        flex-direction: column;
+        margin-top:20px;
+        padding: 0;
+        align-items: center;
+       }
+    }
