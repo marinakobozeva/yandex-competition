@@ -2,3 +2,4 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__inscription/video__inscription.css);
