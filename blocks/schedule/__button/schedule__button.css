@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 1279px) {
   .schedule__button {
-    width: calc(100% - 140px);
-    margin: 20px 0 0 140px;
+    width: calc(100% - 128px);
+    margin: 20px 0 0 128px;
   }
 }
 
