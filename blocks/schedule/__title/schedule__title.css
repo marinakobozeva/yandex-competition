@@ -1,9 +1,18 @@
 .schedule__title {
-  margin: 0 0 138px;
+  margin: 0 0 84px;
   padding: 0;
   font-family: 'Inter';
   font-size: 38px;
   font-weight: 700;
   line-height: 46px;
   width: calc(100% - 101px);
+}
+
+@media screen and (max-width: 424px) {
+  .schedule__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 50px;
+  }
 }

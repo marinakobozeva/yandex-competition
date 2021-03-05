@@ -24,3 +24,10 @@
     margin: 20px 0 0 140px;
   }
 }
+
+@media screen and (max-width: 424px) {
+  .schedule__button {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}

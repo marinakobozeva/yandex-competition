@@ -1,6 +1,13 @@
 .schedule__text {
   width: calc(100% - 74px - 232px);
-  margin: 152px 232px 132px 74px;
+  margin: 143px 232px 105px 74px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 424px) {
+  .schedule__text {
+    width: calc(100% - 2 * 16px);
+    margin: 30px auto;
+  }
 }
