@@ -1,0 +1,44 @@
+.video__inscription {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 141px;
+  left: 71px;
+  font-family: 'Istok Web';
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 4%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1279px) {
+  .video__inscription {
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__inscription {
+    top: 24px;
+    left: 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__inscription {
+    top: 16px;
+    left: 16px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__inscription {
+    top: 12px;
+  left: 12px;
+
+  }
+}

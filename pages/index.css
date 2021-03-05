@@ -46,3 +46,6 @@
 @import url(../blocks/schedule/__button/schedule__button.css);
 @import url(../blocks/schedule/__image/schedule__image.css);
 
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__inscription/video__inscription.css);
