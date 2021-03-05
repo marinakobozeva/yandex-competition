@@ -1,9 +1,15 @@
 .people__item-title {
-  margin: 0;
+  margin: 0 0 33px;
   padding: 0;
   font-family: 'IBMPlexMono';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 126%;
+}
+
+@media screen and (max-width: 424px) {
+  .people__item-title {
+    margin: 0 0 16px;
+  }
 }
