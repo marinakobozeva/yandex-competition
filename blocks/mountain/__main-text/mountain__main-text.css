@@ -7,10 +7,13 @@
 }
 .mountain__main-text:last-child {
  margin: 0;
+<<<<<<< HEAD
 }
 @media screen and (max-width:1023px){
 .mountain__main-text{
    font-size: 20px;
    line-height: 26px;
     }
+=======
+>>>>>>> places
 }
