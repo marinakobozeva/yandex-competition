@@ -5,9 +5,30 @@
   flex-direction: column;
 }
 
+
+@media screen and (max-width: 1279px) {
+  .schedule__text {
+    width: calc(100% - 2 * 30px);
+    margin: 50px auto;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .schedule__text {
+    width: calc(100% - 2 * 24px);
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .schedule__text {
+    width: calc(100% - 2 * 20px);
+  }
+}
+
 @media screen and (max-width: 424px) {
   .schedule__text {
     width: calc(100% - 2 * 16px);
-    margin: 30px auto;
   }
 }
