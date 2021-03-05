@@ -7,13 +7,9 @@
 }
 .sea__main-text:last-child {
  margin: 0;
-<<<<<<< HEAD
 }
 @media screen and (max-width:1023px){
-    .sea__main-text{
-       line-height: 26px;
+.sea__main-text{
+    line-height: 26px;
         }
-    }
-=======
 }
->>>>>>> places
