@@ -7,3 +7,29 @@
   min-height: 666px;
 }
 
+@media screen and (max-width: 1279px) {
+  .footer {
+    min-height: 550px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-height: 600px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer {
+    min-height: 300px;
+  }
+}
+
