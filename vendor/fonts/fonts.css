@@ -42,6 +42,9 @@
   src: url(../fonts/IBMPlexMono-Bold.woff) format('woff'),
   url(../fonts/IBMPlexMono-Bold.woff2) format('woff2');
   font-family: 'IBMPlexMono';
+  src: url(../fonts/IstokWeb-Bold.woff) format('woff'),
+  url(../fonts/IstokWeb-Bold.woff2) format('woff2');
+  font-family: 'IstokWeb';
   font-style: normal;
   font-weight: 700;
 }
