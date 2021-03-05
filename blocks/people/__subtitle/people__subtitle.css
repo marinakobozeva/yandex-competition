@@ -1,0 +1,44 @@
+.people__subtitle {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 133%;
+  width: calc(100% - 743px);
+  margin: 39px 0 136px;
+}
+
+@media screen and (max-width: 1376px) {
+  .people__subtitle {
+    width: calc(100% - 628px);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .people__subtitle {
+    width: calc(100% - 446px);
+
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .people__subtitle {
+    width: calc(100% - 356px);
+    font-size: 32px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people__subtitle {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .people__subtitle {
+    font-size: 20px;
+  }
+}
+

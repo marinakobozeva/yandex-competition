@@ -1,0 +1,39 @@
+.people {
+  width: calc(100% - 2 * 74px);
+  margin: 148px 74px 159px;
+}
+
+@media screen and (max-width: 1376px) {
+  .people {
+    width: calc(100% - 2 * 48px);
+    margin: 130px 48px 140px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .people {
+    width: calc(100% - 2 * 30px);
+    margin: 120px 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .people {
+    width: calc(100% - 2 * 24px);
+    margin: 100px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people {
+    width: calc(100% - 2 * 20px);
+    margin: 80px 20px 80px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .people {
+    width: calc(100% - 2 * 16px);
+    margin: 60px 16px;
+  }
+}

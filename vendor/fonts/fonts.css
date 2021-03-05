@@ -21,3 +21,27 @@
   font-style: normal;
   font-weight: 900;
 }
+
+@font-face {
+  src: url(../fonts/IBMPlexMono-Medium.woff) format('woff'),
+  url(../fonts/IBMPlexMono-Medium.woff2) format('woff2');
+  font-family: 'IBMPlexMono';
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(../fonts/IBMPlexMono-SemiBold.woff) format('woff'),
+  url(../fonts/IBMPlexMono-SemiBold.woff2) format('woff2');
+  font-family: 'IBMPlexMono';
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url(../fonts/IBMPlexMono-Bold.woff) format('woff'),
+  url(../fonts/IBMPlexMono-Bold.woff2) format('woff2');
+  font-family: 'IBMPlexMono';
+  font-style: normal;
+  font-weight: 700;
+}
