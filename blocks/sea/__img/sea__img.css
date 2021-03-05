@@ -2,9 +2,12 @@
     max-height: 576px;
     width: 100%;
     object-fit: cover;
+<<<<<<< HEAD
 }
 @media screen and (max-width: 767px) {
 .sea__img{
     order: 2;
         }
+=======
+>>>>>>> places
 }

@@ -7,9 +7,13 @@
 .mountain__img{
     order: 1;
          }
+<<<<<<< HEAD
     }
 @media screen and (max-width: 767px) {
 .forest__img{
     order: 2;
     }
 }
+=======
+    }
+>>>>>>> places
