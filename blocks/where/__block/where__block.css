@@ -1,0 +1,23 @@
+.where__block{
+    /* margin: 0 196px 0 0; */
+    max-width: 550px;
+    width: 100%;
+    align-self: center;
+    }
+@media screen and (max-width: 1023px) {
+.where__block{
+    /* padding-left: 24px */
+        }
+    }
+@media screen and (max-width: 767px) {
+.where__block{
+    padding: 0 20px 30px 20px;
+    max-width: 385px;
+        }
+    }
+@media screen and (max-width: 424px) {
+.where__block{
+    padding:0 16px 20px 16px;
+    max-width: 287px;
+        }
+    }

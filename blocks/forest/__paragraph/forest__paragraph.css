@@ -1,0 +1,9 @@
+.forest__paragraph{
+    max-width: 380px;
+}
+@media screen and (max-width:1023px){
+    .forest__paragraph{
+        width: 100%;
+        max-width: 900px;
+    }
+}

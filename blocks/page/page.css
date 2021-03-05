@@ -1,3 +1,5 @@
-.page {
+.page{
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 1377px;
   margin: 0 auto;
-}
+  }

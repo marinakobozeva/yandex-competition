@@ -5,17 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Марина Кобозева и Алексей Тихонов">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Куда я поеду?</title>
 </head>
 <body class="body">
   <div class="page">
       <header class="header">
        <ul class="header__links">
-         <li><a class="header__link" href="">Мечты</a></li>
-         <li><a class="header__link" href="">Ожидание</a></li>
-         <li><a class="header__link" href="">Реальность</a></li>
+         <li class="header__box"><a target="_blank" class="header__link" href="#">Мечты</a></li>
+         <li class="header__box"><a target="_blank" class="header__link" href="#">Ожидание</a></li>
+         <li class="header__box"><a target="_blank" class="header__link" href="#">Реальность</a></li>
        </ul>
-       <a href="#" class="header__complain">Пожаловаться</a>
+       <a href="#" target="_blank" class="header__complain">Пожаловаться</a>
       </header>
       <main class="main">
           <section class="where">
@@ -23,16 +24,40 @@
               <p class="where__subtitle">Куда я поеду</p>
               <h2 class="where__title">Куда я поеду сразу, как можно будет куда-то поехать</h2>
              </div>
-              <img class="where__img" src="./images/intro-image.jpeg" alt="">
+              <img class="where__img" src="./images/intro-image.jpeg" alt="самолет">
           </section>
           <section class="places">
               <div class="forest">
-                  <img src="./images/places-forest.jpeg" alt="" class="forest__img">
+                  <img src="./images/places-forest.jpeg" alt="лес" class="forest__img">
                   <div class="forest__text">
-                     <h2 class="forest__title">Поеду в лес</h2>
-                     <p class="forest__main-text">
-                      Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+                    <h2 class="forest__title">Поеду в лес</h2>
+                      <div class="forest__paragraph">
+                        <p class="forest__main-text">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+                        <p class="forest__main-text">
+                          Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+                     </div>
                   </div>
+              </div>
+              <div class="mountain">
+                <div class="mountain__text">
+                  <h2 class="mountain__title">Поеду в горы</h2>
+                    <div class="mountain__paragraph">
+                      <p class="mountain__main-text">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+                   </div>
+                </div>
+                <img src="./images/places-mountains.jpeg" alt="горы" class="mountain__img">
+              </div>
+              <div class="sea">
+              <img src="./images/places-black-sea.jpg" alt="черноеМоре" class="sea__img">
+              <div class="sea__text">
+                <h2 class="sea__title">Поеду на Чёрное море</h2>
+                  <div class="sea__paragraph">
+                    <p class="sea__main-text">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+                    <p class="sea__main-text">
+                      Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+                      <p class="sea__main-text">Уеду я.</p>
+                 </div>
+              </div>
               </div>
           </section>
       </main>

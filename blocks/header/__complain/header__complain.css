@@ -1,0 +1,26 @@
+.header__complain {
+    text-decoration: none;
+    color:#1c1c1c;
+    margin: 0 0 90px 0;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0;
+    font-weight: 700;
+}
+.header__complain:hover{
+    opacity: 0.8;
+    transition: 1s;
+    color:#d98b98;
+}
+@media screen and (max-width: 1279px) {
+    .header__complain{
+        font-size: 20px;
+       }
+    }
+@media screen and (max-width: 424px) {
+    .header__complain{
+        margin: 0 0 50px 0;
+        font-size: 25px;
+        font-weight: 700;
+       }
+    }

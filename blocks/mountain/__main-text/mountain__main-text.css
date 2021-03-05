@@ -1,0 +1,16 @@
+.mountain__main-text {
+    width: 100%;
+    margin: 0 0 42px 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 15px;
+}
+.mountain__main-text:last-child {
+ margin: 0;
+}
+@media screen and (max-width:1023px){
+.mountain__main-text{
+   font-size: 20px;
+   line-height: 26px;
+    }
+}
